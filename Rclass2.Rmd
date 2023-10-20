@@ -1,0 +1,30 @@
+---
+title: "My Second Rmarkdown document"
+author: "Fredrick E. Kakembo"
+date: "2023-10-20"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Importing data
+
+```{r}
+library(knitr)
+#df <- read.csv("~/Desktop/Old\ files/Documents/Rprogramming/Rprogramming/R_graph_ACE_Makerere_2022/BirdNest.csv")
+
+head(data1)
+
+kable(head(df))
+
+
+```
+
+
+
+
